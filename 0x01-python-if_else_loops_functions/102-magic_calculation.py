@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#Author: Muiz Olaore
+# Author: Muiz Olaore
 
 def magic_calculation(a, b, c):
     if a < b:

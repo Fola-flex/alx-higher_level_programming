@@ -1,5 +1,5 @@
-#1/usr/bin/python3
-#Author: Muiz Olaore
+#!/usr/bin/python3
+# Author: Muiz Olaore
 
 i = 0
 for c in range(ord('z'), ord('a') - 1, -1):

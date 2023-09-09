@@ -1,5 +1,5 @@
-#!/usr/bin/bash
-#Author: Muiz Olaore
+#!/usr/bin/python3
+# Author: Muiz Olaore
 def remove_char_at(str, n):
     if n < 0:
         return (str)
