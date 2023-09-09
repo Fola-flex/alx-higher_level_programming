@@ -4,9 +4,9 @@
 
 def uppercase(str):
     """Print a string in uppercase."""
-    output = ""
-    for c in str:
+    for i,c in enumerate(str):
         if ord(c) >= 97 and ord(c) <= 122:
             c = chr(ord(c) - 32)
-            output += c
-    print("{}".format(output), end="\n")
+        if i == len(str) - 1:
+            c += "\n"
+        print("{}".format(c), end="")
