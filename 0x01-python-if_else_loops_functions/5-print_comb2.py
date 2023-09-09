@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#Author: Muiz Olaore
+# Author: Muiz Olaore
 for number in range(0, 100):
     if number == 99:
         print("{}".format(number))

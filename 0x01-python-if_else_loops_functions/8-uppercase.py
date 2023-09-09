@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#Function to print string in uppercase
+# Function to print string in uppercase
 # Author - Muiz Olaore
 
 def uppercase(str):
