@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/python3
 # Author: Muiz Olaore
 
 def element_at(my_list, idx):
