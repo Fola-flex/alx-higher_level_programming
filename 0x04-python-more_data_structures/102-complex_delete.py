@@ -2,9 +2,10 @@
 # Author: Muiz Olaore
 
 def complex_delete(a_dictionary, value):
-    for key, dic_value in a_dictionary.items():
-        if dic_value == value:
-            del (a_dictionary[key])
-        return a_dictionary
+    dic_keys = list(a_dictionary.keys())
+
+    for dic_value in dic_keys:
+        if value == a_dictionary.get(dic_value):
+            del (a_dictionary[dic_value])
 
     return a_dictionary
