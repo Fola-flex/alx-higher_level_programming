@@ -20,19 +20,19 @@ def roman_to_int(roman_string):
     list_keys = list(roman.keys())
 
     num = 0
-    last_roman_no = 0
+    last_roman_number = 0
     list_num = [0]
 
     for i in roman_string:
         for r_num in list_keys:
             if r_num == i:
-                if roman.get(ch) <= last_roman_number:
+                if roman.get(i) <= last_roman_number:
                     num += to_subtract(list_num)
                     list_num = [roman.get(i)]
                 else:
                     list_num.append(roman.get(i))
 
-                last_roman_no = roman.get(i)
+                last_roman_number = roman.get(i)
 
     num += to_subtract(list_num)
 
