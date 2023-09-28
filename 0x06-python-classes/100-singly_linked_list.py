@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-# Author: Muiz Olaore
 
 """Define classes for a singly-linked list."""
 
 
-iclass Node:
+class Node:
     """Represent a node in a singly-linked list."""
 
     def __init__(self, data, next_node=None):
