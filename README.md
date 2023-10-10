@@ -1,1 +1,1 @@
-This is a directory containing functions on CLasses in C Programming Language
+This is a repository for learning Python Programming Language
