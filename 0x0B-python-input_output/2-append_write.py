@@ -1,4 +1,4 @@
-#!/usr/nin/python3
+#!/usr/bin/python3
 """Defines a file appending function."""
 
 
