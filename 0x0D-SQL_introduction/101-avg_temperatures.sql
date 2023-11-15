@@ -2,5 +2,5 @@
 -- temperature in descending order
 SELECT city, AVG(value) AS avg_temp
 FROM temperatures
-GROUP BY city, avg_temp
+GROUP BY city
 ORDER BY avg_temp DESC
