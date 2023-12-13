@@ -2,9 +2,9 @@
 let arguments = process.argv;
 
 function printArgument(arguments) {
-	if (arguments.length === 1) {
+	if (arguments.length === 2) {
 		return "No Argument"
-	} else if (arg.length === 2) {
+	} else if (arg.length === 3) {
 		return "Argument found"
 	} else {
 		return "Arguments found"

@@ -3,8 +3,8 @@
 let argument = process.argv;
 
 function toInteger(argument) {
-	if (parseInt(argument[1]) {
-		return "My number: " + parseInt(argument[1]) 
+	if (parseInt(argument[2]) {
+		return "My number: " + parseInt(argument[2]) 
 	} else {
 		return "Not a number"
 	}
