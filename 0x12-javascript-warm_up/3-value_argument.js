@@ -2,7 +2,7 @@
 
 let arguments = process.argv;
 
-function argumentValue(arguments) {
+function argumentValue (arguments) {
   if (arguments[2]) {
     return arguments[2]
   } else {
