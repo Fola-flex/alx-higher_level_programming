@@ -1,6 +1,6 @@
 #!/usr/bin/node
 let argumnent = process.argv;
-if (argument[2] === undefined || isNan(argument[2])) {
+if (argument[2] === undefined || isNaN(argument[2])) {
   console.log('Missing number of occurrences');
 } else {
   const x = Number(argument[2]);
