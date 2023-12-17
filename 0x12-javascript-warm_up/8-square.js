@@ -1,5 +1,5 @@
 #!/usr/bin/node
-let argument = process.argv;
+const argument = process.argv;
 if (argument[2] === undefined || isNaN(argument[2])) {
   console.log('Missing size');
 } else {

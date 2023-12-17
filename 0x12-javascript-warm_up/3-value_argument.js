@@ -1,6 +1,5 @@
 #!/usr/bin/node
-
-let arguments = process.argv;
+const arguments = process.argv;
 
 function argumentValue (arguments) {
   if (arguments[2]) {
