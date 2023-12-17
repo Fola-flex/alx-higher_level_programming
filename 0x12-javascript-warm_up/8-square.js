@@ -1,6 +1,6 @@
 #!/usr/bin/node
 let argument = process.argv;
-if (argument[2] === undefined || isNan(argument[2])) {
+if (argument[2] === undefined || isNaN(argument[2])) {
   console.log('Missing size');
 } else {
   const x = Number(argument[2]);
