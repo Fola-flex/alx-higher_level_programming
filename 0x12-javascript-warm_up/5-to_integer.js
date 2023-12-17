@@ -1,6 +1,6 @@
 #!/usr/bin/node
 const argument = process.argv;
-function toInteger(argument) {
+function toInteger (argument) {
   if (parseInt(argument[2])) {
     return 'My number: ' + parseInt(argument[2]);
   } else {

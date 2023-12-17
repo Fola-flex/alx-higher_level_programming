@@ -7,4 +7,4 @@ function argumentValue (argument) {
     return 'No argument';
   }
 }
-console.log(argumentValue(argument))
+console.log(argumentValue(argument));
