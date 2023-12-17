@@ -1,12 +1,10 @@
 #!/usr/bin/node
-const arguments = process.argv;
-
-function argumentValue (arguments) {
-  if (arguments[2]) {
-    return arguments[2]
+const argument = process.argv;
+function argumentValue (argument) {
+  if (argument[2]) {
+    return argument[2];
   } else {
-    return 'No argument'
+    return 'No argument';
   }
 }
-
-console.log(argumentValue(arguments))
+console.log(argumentValue(argument))
