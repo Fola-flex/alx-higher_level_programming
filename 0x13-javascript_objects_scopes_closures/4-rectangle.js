@@ -1,5 +1,4 @@
 #!/usr/bin/node
-
 class Rectangle {
   constructor (w, h) {
     if (( w > 0) && (h > 0)) {
@@ -19,8 +18,9 @@ class Rectangle {
   }
 
   rotate () {
-    this.width = h;
-    this.height = w;
+    const newWidth = this.width;
+    this.width = this.height;
+    this.height = newWidth;
   }
 
   double () {
