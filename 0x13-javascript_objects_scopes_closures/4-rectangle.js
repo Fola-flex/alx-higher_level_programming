@@ -26,6 +26,7 @@ class Rectangle {
   double () {
     this.width = w * 2;
     this.height = h * 2;
+  }
 }
 
 module.exports = Rectangle;
