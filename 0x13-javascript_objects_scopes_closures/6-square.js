@@ -16,3 +16,5 @@ class Square extends oldSquare {
     }
   }
 }
+
+module.exports = Square;
