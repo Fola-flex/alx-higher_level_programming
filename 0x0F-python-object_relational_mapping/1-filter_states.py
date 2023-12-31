@@ -6,9 +6,11 @@ import sys
 
 if __name__ == "__main__":
     db = MySQLdb.connect(host="localhost", user=sys.argv[1], 
-                        password=sys.argv[2], database=sys.argv[3], port=3306)
+                         password=sys.argv[2], database=sys.argv[3],
+                         port=3306)
     cur = db.cursor()
-    cur.execute("SELECT * FROM states WHERE name LIKE BINARY 'N%' ORDER BY states.id")
+    cur.execute("""SELECT * FROM states WHERE name LIKE BINARY 'N%' 
+                ORDER BY states.id""")
     row = cur.fetchall()
     for row in rows:
         print(row)
